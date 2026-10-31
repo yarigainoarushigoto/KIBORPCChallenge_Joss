@@ -1,0 +1,5 @@
+# Script harus LF supaya jalan di Ubuntu walau di-clone/diedit di Windows
+* text=auto eol=lf
+*.bat text eol=crlf
+*.pdf binary
+*.png binary

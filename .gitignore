@@ -1,0 +1,23 @@
+# File resmi JAXA (besar, unduh ulang dari https://jaxa.krpc.jp/download)
+01_Dokumen/
+02_Simulator/
+03_Sample_Code/
+*.pdf
+!docs/*.pdf
+*.tar.gz
+
+# Log mentah simulator (rosbag & system.log ratusan MB)
+08_Logs/2*/
+08_Logs/STOP
+*.bag
+system.log
+
+# Python / editor / OS
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
